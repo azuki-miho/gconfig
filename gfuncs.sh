@@ -7,3 +7,11 @@ function texmake {
     rm $filename.bbl $filename.aux $filename.blg
     rm $filename.log $filename.synctex.gz $filename.brf $filename.out
 }
+
+function start_vpn {
+    case $HOSTNAME in
+        "gongjingyu-desktop")
+            python /home/gongjingyu/Downloads/shadowsocksr/shadowsocks/local.py -c /etc/shadowsocks.json&
+            ;;
+    esac
+}
