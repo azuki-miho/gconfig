@@ -11,7 +11,7 @@ alias ssh-astro='ssh gjyu@202.120.13.67'
 alias ssh-test='ssh gongjingyu@39.105.58.68'
 alias ssh-tan='ssh -p 20601 gongjingyu@202.120.38.4'
 case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
+    xterm-color|*-256color|xterm*) color_prompt=yes;;
 esac
 
 if [ "$color_prompt" = yes ]; then
