@@ -13,6 +13,8 @@ alias ssh-test='ssh gongjingyu@39.105.58.68'
 alias ssh-tan='ssh -p 20601 gongjingyu@202.120.38.4'
 alias ssh-tan-local='ssh gongjingyu@192.168.0.206'
 alias ssh-hdy='ssh chenpan@202.120.38.35'
+alias ssh-markov-local='ssh gongjingyu@192.168.0.85'
+alias ssh-markov='ssh -p 10055 gongjingyu@202.120.38.4'
 case "$TERM" in
     xterm-color|*-256color|xterm*) color_prompt=yes;;
 esac
