@@ -15,6 +15,7 @@ alias ssh-tan-local='ssh gongjingyu@192.168.0.206'
 alias ssh-hdy='ssh chenpan@202.120.38.35'
 alias ssh-boltz-local='ssh gongjingyu@192.168.0.85'
 alias ssh-boltz='ssh -p 10055 gongjingyu@202.120.38.4'
+alias ssh-xu='ssh xujiachen@202.120.38.35'
 case "$TERM" in
     xterm-color|*-256color|xterm*) color_prompt=yes;;
 esac
