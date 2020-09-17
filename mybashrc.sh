@@ -23,6 +23,7 @@ alias ssh-huawei='ssh gongjingyu@121.36.219.42'
 alias ssh-linus-local='ssh gongjingyu@192.168.0.88'
 alias ssh-linus='ssh -p 10058 gongjingyu@202.120.38.4'
 alias ssh-titan='ssh -p 21001 tanxin@202.120.38.4'
+alias ssh-max-local='ssh gongjingyu@192.168.0.95'
 case "$TERM" in
     xterm-color|*-256color|xterm*) color_prompt=yes;;
 esac
