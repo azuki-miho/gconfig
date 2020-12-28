@@ -25,6 +25,8 @@ alias ssh-linus='ssh -p 10058 gongjingyu@202.120.38.4'
 alias ssh-titan='ssh -p 21001 tanxin@202.120.38.4'
 alias ssh-max-local='ssh gongjingyu@192.168.0.95'
 alias ssh-max='ssh -p 10063 gongjingyu@202.120.38.4'
+alias ssh-planck='ssh -p 21801 gongjingyu@202.120.38.4'
+alias ssh-planck-local='ssh gongjingyu@192.168.0.218'
 case "$TERM" in
     xterm-color|*-256color|xterm*) color_prompt=yes;;
 esac
